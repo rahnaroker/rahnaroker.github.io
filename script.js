@@ -10,3 +10,7 @@ function areaRectangle(obj){
   var s=a*b;
   obj.res.value=s;
 }
+
+function message(m){
+  alert (m);
+}
