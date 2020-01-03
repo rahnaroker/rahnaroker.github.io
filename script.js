@@ -51,3 +51,10 @@ function maxZnach(obj){
       setTimeout("bigPict()", 500)
      }
     }
+
+    function lilPict(obj){
+     var w=obj.tigr.width;
+      obj.tigr.width=102;
+      obj.tigr.src="images/tigrenok.jpg"
+
+    }
