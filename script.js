@@ -43,11 +43,11 @@ function maxZnach(obj){
   obj.res.value=m;
 }
 
-    function bigPict(){
-     var w=document.tigr.width;
+    function bigPict(obj){
+     var w=obj.tigr.width;
      if (w<302){
-      document.tigr.width=w+10;
-      document.tigr.src="images/tigrenok.jpg"
+      obj.tigr.width=w+10;
+      obj.tigr.src="images/tigrenok.jpg"
       setTimeout("bigPict()", 500)
      }
     }
