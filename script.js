@@ -42,3 +42,12 @@ function maxZnach(obj){
   if (c>m) m=c;
   obj.res.value=m;
 }
+
+    function bigPict(){
+     var w=document.tigr.width;
+     if (w<302){
+      document.tigr.width=w+10;
+      document.tigr.src="images/tigrenok.jpg"
+      setTimeout("bigPict()", 500)
+     }
+    }
